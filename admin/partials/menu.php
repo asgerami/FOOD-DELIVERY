@@ -1,3 +1,4 @@
+<?php include('../config/constants.php'); ?>
 <html>
     <head>
         <title>Food Delivery Website - Hoem Page</title>
