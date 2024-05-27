@@ -1,4 +1,9 @@
-<?php include('../config/constants.php'); ?>
+<?php 
+
+include('../config/constants.php'); 
+include('login-check.php'); 
+
+?>
 <html>
     <head>
         <title>Food Delivery Website - Hoem Page</title>
@@ -13,6 +18,8 @@
                 <li><a href="manage-catagory.php">Catagory</a></li>
                 <li><a href="manage-food.php">Food</a></li>
                 <li><a href="manage-order.php">Order</a></li>
+                <li><a href="logout.php">logout</a></li>
+
             </ul>
         </div>
         </div>
